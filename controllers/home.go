@@ -2,12 +2,17 @@ package controllers
 
 import (
 	"github.com/astaxie/beego"
+	"github.com/astaxie/beego/logs"
 )
 
 type HomeController struct {
 	beego.Controller
 }
 
-func (c *HomeController) Index() {
-	c.Ctx.WriteString("顶顶顶顶")
+func (this *HomeController) Index() {
+
+	this.SetSession("username","brady")
+	username := this.GetSession("username")
+	logs.Info(username)
+	this.Ctx.WriteString("3333")
 }

@@ -1,0 +1,7 @@
+2020/06/18 14:37:50.223 [I] [value.go:460]  brady
+2020/06/18 14:41:37.374 [I] [asm_amd64.s:1373]  http server Running on http://:8081
+2020/06/18 14:42:09.544 [I] [asm_amd64.s:1373]  http server Running on http://:8081
+2020/06/18 14:42:11.720 [I] [asm_amd64.s:1373]  http server Running on http://:8081
+2020/06/18 14:45:10.694 [I] [asm_amd64.s:1373]  http server Running on http://:8081
+2020/06/18 14:45:12.610 [I] [asm_amd64.s:1373]  http server Running on http://:8081
+2020/06/18 14:45:14.793 [I] [asm_amd64.s:1373]  http server Running on http://:8081
